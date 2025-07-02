@@ -18,13 +18,13 @@ const TemperatureCard: React.FC<TemperatureCardProps> = ({
   const getIcon = () => {
     switch (icon) {
       case 'sun':
-        return <Sun className="w-6 h-6 text-yellow-400" />;
+        return <Sun className="w-6 h-6 text-emerald-400" />;
       case 'cloud-sun':
-        return <CloudSun className="w-6 h-6 text-blue-400" />;
+        return <CloudSun className="w-6 h-6 text-teal-400" />;
       case 'thermometer-sun':
-        return <ThermometerSun className="w-6 h-6 text-orange-400" />;
+        return <ThermometerSun className="w-6 h-6 text-emerald-500" />;
       default:
-        return <Sun className="w-6 h-6 text-yellow-400" />;
+        return <Sun className="w-6 h-6 text-emerald-400" />;
     }
   };
 

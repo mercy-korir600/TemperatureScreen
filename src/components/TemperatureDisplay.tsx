@@ -27,8 +27,8 @@ const TemperatureDisplay: React.FC<TemperatureDisplayProps> = ({
   const getTemperatureColor = () => {
     if (temperature >= 80) return 'text-red-500';
     if (temperature >= 70) return 'text-orange-500';
-    if (temperature >= 60) return 'text-yellow-500';
-    if (temperature >= 50) return 'text-green-500';
+    if (temperature >= 60) return 'text-emerald-400';
+    if (temperature >= 50) return 'text-teal-400';
     return 'text-blue-500';
   };
 
